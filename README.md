@@ -26,24 +26,8 @@ SuperPay is a beautiful, interactive, high-fidelity mobile e-wallet simulator bu
 
 ---
 
-## 🚀 Running Locally
+## 🚀 Live Demo
 
-Follow these steps to run the project on your machine:
+You can test and try the fully interactive e-wallet simulator directly in your web browser:
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/TabAh007/SuperPay-mobile-app.git
-   cd SuperPay-mobile-app
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**:
-   ```bash
-   npm run dev
-   ```
-
-4. Open your browser and navigate to `http://localhost:5173`.
+👉 **[Launch SuperPay Live Simulator](https://TabAh007.github.io/SuperPay-mobile-app/)**
