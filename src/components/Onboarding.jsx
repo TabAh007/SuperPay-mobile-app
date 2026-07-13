@@ -171,9 +171,9 @@ export default function Onboarding({ onFinish }) {
       <div className="d-flex justify-between align-center" style={{ height: '32px' }}>
         <div className="d-flex align-center gap-2">
           <div style={{ width: '24px', height: '24px', borderRadius: '8px', backgroundColor: 'var(--primary)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <span style={{ color: '#ffffff', fontWeight: '800', fontSize: '11px' }}>A</span>
+            <span style={{ color: '#ffffff', fontWeight: '800', fontSize: '11px' }}>S</span>
           </div>
-          <span style={{ fontWeight: '800', fontSize: '14px', letterSpacing: '-0.2px', color: 'var(--text-primary)' }}>AllPay</span>
+          <span style={{ fontWeight: '800', fontSize: '14px', letterSpacing: '-0.2px', color: 'var(--text-primary)' }}>SuperPay</span>
         </div>
         
         {currentSlide < slides.length - 1 && (

@@ -283,12 +283,12 @@ export default function Dashboard({ balance, transactions, onNavigate, onPayBill
                 </div>
 
                 <p className="text-center font-bold" style={{ backgroundColor: 'var(--bg-surface)', border: '1px solid var(--border-color)', padding: '12px', borderRadius: '16px', fontSize: '12px', color: 'var(--text-primary)' }}>
-                  allpay.me/andrew_ainsley
+                  superpay.me/andrew_ainsley
                 </p>
 
                 <button
                   onClick={() => {
-                    navigator.clipboard.writeText('allpay.me/andrew_ainsley');
+                    navigator.clipboard.writeText('superpay.me/andrew_ainsley');
                     alert('Link copied!');
                     setActiveService(null);
                   }}

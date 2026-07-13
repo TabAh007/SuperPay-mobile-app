@@ -127,7 +127,7 @@ export default function PhoneFrame({ children, isDark, toggleTheme, onReset }) {
       
       {/* Footer Info */}
       <p className="mt-4 text-xs text-slate-400 dark:text-slate-500 font-medium" style={{ marginTop: '16px', color: 'var(--text-secondary)' }}>
-        AllPay UI Simulation • iPhone 15 Pro Ratio
+        SuperPay UI Simulation • iPhone 15 Pro Ratio
       </p>
     </div>
   );
