@@ -4,15 +4,7 @@ SuperPay is a beautiful, interactive, high-fidelity mobile e-wallet simulator bu
 
 🚀 **[Try the Live App Demo Here!](https://TabAh007.github.io/SuperPay-mobile-app/)**
 
----
 
-## 📸 Screenshots
-
-<p align="center">
-  <img src="./public/screenshot.png" alt="SuperPay Dashboard Mobile Mockup" width="400" style="border-radius: 24px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);" />
-</p>
-
----
 
 ## ✨ Features
 
