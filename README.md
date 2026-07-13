@@ -1,16 +1,57 @@
-# React + Vite
+# SuperPay 📱 — Mobile E-Wallet Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+SuperPay is a beautiful, interactive, high-fidelity mobile e-wallet simulator built with **React** and **Vite**. It simulates a native mobile app interface inside a browser frame, featuring smooth animations, dark mode support, and realistic wallet operations.
 
-Currently, two official plugins are available:
+🚀 **[Try the Live App Demo Here!](https://TabAh007.github.io/SuperPay-mobile-app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<p align="center">
+  <img src="./public/screenshot.png" alt="SuperPay Dashboard Mobile Mockup" width="400" style="border-radius: 24px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);" />
+</p>
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ✨ Features
+
+- 🔄 **Onboarding Slides**: Swipeable introduction carousel detailing key benefits.
+- 🔒 **Biometric Fingerprint Scan**: Simulated login flow with sensory animations.
+- 💳 **Card Management**: View card details (CVV, Card Number) and toggle cards between active/frozen states.
+- 💸 **Instant Transfers**: Simulate money transfers to contact lists with balance updates.
+- 📈 **Interactive Statistics Chart**: Custom interactive SVG charts visualizing weekly expenditure.
+- 🌓 **Dark Mode Toggle**: Sleek styling system for both light and dark mode modes.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: React 19 (Functional Components & Hooks)
+- **Bundler**: Vite 8
+- **Styling**: Modern CSS Custom Properties (variables) for native theme switching
+- **Icons**: Lucide React
+
+---
+
+## 🚀 Running Locally
+
+Follow these steps to run the project on your machine:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/TabAh007/SuperPay-mobile-app.git
+   cd SuperPay-mobile-app
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173`.
