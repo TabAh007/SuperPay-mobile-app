@@ -3,8 +3,8 @@ import { ChevronLeft, Eye, EyeOff, Lock, Unlock, Plus, Trash2, Globe, Wifi } fro
 
 export default function MyCard({ onBack }) {
   const [cards, setCards] = useState([
-    { id: 1, type: 'Visa Black', name: 'Andrew Ainsley', number: '4284 9230 4581 3749', expiry: '09/29', cvv: '235', isFrozen: false, grad: 'linear-gradient(135deg, #1e1e24 0%, #2e3040 100%)', brand: 'VISA' },
-    { id: 2, type: 'Mastercard Gold', name: 'Andrew Ainsley', number: '5391 1045 2840 8593', expiry: '04/28', cvv: '942', isFrozen: false, grad: 'linear-gradient(135deg, #e9a115 0%, #c78000 100%)', brand: 'mastercard' }
+    { id: 1, type: 'Visa Black', name: 'Tabriz Ahmadli', number: '4284 9230 4581 3749', expiry: '09/29', cvv: '235', isFrozen: false, grad: 'linear-gradient(135deg, #1e1e24 0%, #2e3040 100%)', brand: 'VISA' },
+    { id: 2, type: 'Mastercard Gold', name: 'Tabriz Ahmadli', number: '5391 1045 2840 8593', expiry: '04/28', cvv: '942', isFrozen: false, grad: 'linear-gradient(135deg, #e9a115 0%, #c78000 100%)', brand: 'mastercard' }
   ]);
   
   const [activeCardIdx, setActiveCardIdx] = useState(0);
@@ -32,7 +32,7 @@ export default function MyCard({ onBack }) {
       const newCard = {
         id: Date.now(),
         type: `${newCardBrand} Custom`,
-        name: 'Andrew Ainsley',
+        name: 'Tabriz Ahmadli',
         number: formattedNum,
         expiry: newCardExpiry,
         cvv: newCardCVV,

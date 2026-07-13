@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Bell, Percent, ArrowUpRight, ArrowDownLeft, ArrowUpDown, Zap, Wifi, Droplet, Wallet, Shield, ShoppingBag, Tag, Activity, ChevronRight, X } from 'lucide-react';
+import profileImg from '../assets/profile.jpg';
 
 export default function Dashboard({ balance, transactions, onNavigate, onPayBill }) {
   const [activeService, setActiveService] = useState(null);
@@ -38,7 +39,7 @@ export default function Dashboard({ balance, transactions, onNavigate, onPayBill
         <div className="d-flex align-center gap-3">
           <div className="profile-avatar-wrapper">
             <img 
-              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=120"
+              src={profileImg}
               alt="Profile" 
               className="profile-avatar"
             />
@@ -49,7 +50,7 @@ export default function Dashboard({ balance, transactions, onNavigate, onPayBill
               <span className="form-input-label" style={{ fontSize: '9px', fontWeight: '800' }}>Good Morning</span>
               <span>👋</span>
             </div>
-            <h3 style={{ fontSize: '15px', fontWeight: '800', margin: 0 }}>Andrew Ainsley</h3>
+            <h3 style={{ fontSize: '15px', fontWeight: '800', margin: 0 }}>Tabriz Ahmadli</h3>
           </div>
         </div>
 
@@ -76,7 +77,7 @@ export default function Dashboard({ balance, transactions, onNavigate, onPayBill
           {/* Card Top Details */}
           <div className="d-flex justify-between align-start">
             <div>
-              <p style={{ fontSize: '9px', fontWeight: '800', textTransform: 'uppercase', opacity: 0.8, letterSpacing: '0.5px' }}>Andrew Ainsley</p>
+              <p style={{ fontSize: '9px', fontWeight: '800', textTransform: 'uppercase', opacity: 0.8, letterSpacing: '0.5px' }}>Tabriz Ahmadli</p>
               <p style={{ fontSize: '12px', fontFamily: 'monospace', letterSpacing: '1px', marginTop: '4px' }}>•••• •••• •••• 3749</p>
             </div>
             <div className="d-flex flex-col align-end">
@@ -283,12 +284,12 @@ export default function Dashboard({ balance, transactions, onNavigate, onPayBill
                 </div>
 
                 <p className="text-center font-bold" style={{ backgroundColor: 'var(--bg-surface)', border: '1px solid var(--border-color)', padding: '12px', borderRadius: '16px', fontSize: '12px', color: 'var(--text-primary)' }}>
-                  superpay.me/andrew_ainsley
+                  superpay.me/tabriz_ahmadli
                 </p>
 
                 <button
                   onClick={() => {
-                    navigator.clipboard.writeText('superpay.me/andrew_ainsley');
+                    navigator.clipboard.writeText('superpay.me/tabriz_ahmadli');
                     alert('Link copied!');
                     setActiveService(null);
                   }}

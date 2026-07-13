@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { User, Bell, Shield, Moon, HelpCircle, LogOut, ChevronRight, Camera } from 'lucide-react';
+import profileImg from '../assets/profile.jpg';
 
 export default function Profile({ isDark, toggleTheme, onLogout }) {
-  const [profileName, setProfileName] = useState('Andrew Ainsley');
+  const [profileName, setProfileName] = useState('Tabriz Ahmadli');
   const [profilePhone, setProfilePhone] = useState('+1 (555) 019-2834');
   const [isEditing, setIsEditing] = useState(false);
   const [tempName, setTempName] = useState(profileName);
@@ -23,8 +24,8 @@ export default function Profile({ isDark, toggleTheme, onLogout }) {
       <div className="d-flex flex-col align-center justify-center text-center mb-6">
         <div className="relative mb-4">
           <img 
-            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=120"
-            alt="Andrew Ainsley Avatar" 
+            src={profileImg}
+            alt="Tabriz Ahmadli Avatar" 
             style={{ width: '96px', height: '96px', borderRadius: '9999px', objectFit: 'cover', border: '4px solid var(--bg-surface)', boxShadow: 'var(--shadow-sm)' }}
           />
           <button 
